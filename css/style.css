@@ -1,0 +1,24 @@
+/*Body do website*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/*Foto de perfil*/
+.Perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*Configurações do Hero*/
+.Hero {
+    background-color: #ffffff;
+}
+
+/*Conteúdo do Hero*/
+.containerHero {
+    text-align: center;
+    padding: 50px 20px;
+}
