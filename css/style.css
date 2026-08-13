@@ -1,7 +1,6 @@
 /*Body do website*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
 }
 
 /*Foto de perfil*/
@@ -12,13 +11,49 @@ body {
     object-fit: cover;
 }
 
-/*Configurações do Hero*/
-.Hero {
-    background-color: #ffffff;
+/*Descrição do perfil*/
+.descricaoPerfil {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-/*Conteúdo do Hero*/
-.containerHero {
+/*Configurações da página inicial*/
+.paginaInicial {
+    background: linear-gradient(to bottom, #000000 0%, #0a1428 50%, #000000 100%); 
+    color: #fbf9f9; /*Cor do texto*/
+}
+
+/*Conteúdo da página inicial*/
+.containerPaginaInicial, .contatoPaginaInicial{
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
+}
+
+/*Botões 'Ver Projetos' e 'Entrar em Contato' da Página inicial*/
+.botaoPaginaInicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.botaoVerProjetos {
+    background-color: #145bfa;
+    color: #cfd0fc;
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+    border-style: none;
+    font-size: large;
+}
+
+.botaoEntrarContato {
+    background-color: #04060f;
+    color: #4b9bf3;
+    border-radius: 5px;
+    width: 125;
+    height: 50px;
+    border-color: #145bfa;
+    font-size: large;
 }
