@@ -57,3 +57,18 @@ body {
     border-color: #145bfa;
     font-size: large;
 }
+
+.contatoPaginaInicial {
+    text-align: center;
+}
+
+.logoGitHub, .logoLinkedIn {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.logoGmail {
+    width: 30px;
+    height: 20px;
+}
