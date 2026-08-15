@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Portifólio</title>
 </head>
+
 <body>
     <!--Página Inicial-->
     <section class="paginaInicial">
-        <div class="containerPaginaInicial">
-            <img src="images/269cb757027614e9e14c26ea07a95fc7.jpg" alt="Foto do João Victor" class="Perfil">
+        <div class="perfil">
+            <img src="images/269cb757027614e9e14c26ea07a95fc7.jpg" alt="Foto do João Victor" class="fotoPerfil">
             <h1>João Victor</h1>
             <h3>Estudante de Engenharia de Software</h3>
-            <p class="descricaoPerfil">Estudante de Engenharia de Software focado em desenvolver minhas habilidades em programação em projetos reais.</p>
+            <p class="descricaoPerfil">
+                Estudante de Engenharia de Software focado em desenvolver minhas habilidades em programação em projetos reais.
+            </p>
         </div>
 
         <!--Botões 'Ver Projetos' e 'Entrar em Contato'-->
@@ -24,18 +27,34 @@
 
         <!--Links iniciais para contato-->
         <div class="contatoPaginaInicial">
-            <a href="https://github.com/joaovictorrantinsilverio" target="_blank">
-                <img src="images/logoGitHub.png" alt="Logo do GitHub" class="logoGitHub">
-            </a>
-            <a href="https://www.linkedin.com/in/joaovictorrantinsilverio/" target="_blank">
+            <button class="botaoGitHub">
+                <a href="https://github.com/joaovictorrantinsilverio" target="_blank">
+                    <img src="images/logoGitHub.png" alt="Logo do GitHub" class="logoGitHub">
+                </a>
+            </button>
+            <button class="botaoLinkedIn">
+                <a href="https://www.linkedin.com/in/joaovictorrantinsilverio/" target="_blank">
                 <img src="images/logoLinkedIn.png" alt="Logo do LinkedIn" class="logoLinkedIn">
-            </a>
-            <a href="mailto:joaovictorrantinsilverio2007@gmail.com">
+                </a>
+            </button>
+            <button class="botaoGmail">
+                <a href="mailto:joaovictorrantinsilverio2007@gmail.com">
                 <img src="images/logoGmail.png" alt="Logo do Gmail" class="logoGmail">
-            </a>
+                </a>
+            </button>
+            
+            
+        </div>
+    </section>
+
+    <section class="sobreMim">
+        <div class="tituloDescricao">
+            <h1>Sobre Mim</h1>
+            <p>Descrição um pouco maior.</p>
         </div>
     </section>
 </body>
 
 <script src="js/script.js"></script>
+
 </html>
